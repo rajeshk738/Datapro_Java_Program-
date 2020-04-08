@@ -1,0 +1,20 @@
+// beak statement
+
+package ControlStructures_Arrays_Strings_WrapperClasses;
+
+public class Sample5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i,j,k;
+		for(i=1;i<=3;i++)
+			for(j=1;j<=3;j++)
+				for(k=1;k<=3;k++)
+				{
+					if(i == 2 && j == 2 && k == 2)
+						break;
+					System.out.println(i+" "+j+" "+k);
+				}
+	}
+
+}
