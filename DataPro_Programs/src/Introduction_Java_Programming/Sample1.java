@@ -9,7 +9,7 @@ class Sample1 {
 
 		int n=10;
 		System.out.println("The value is: "+n);
-		System.out.println("printed n value");
+		System.out.println("printed n value is : "+n );
 	}
 
 }
