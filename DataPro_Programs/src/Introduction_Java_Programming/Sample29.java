@@ -14,7 +14,7 @@ class Der4 extends Base4{
 	{
 		super();  // ---> calls parent class constructor and super() should be first statement.
 		System.out.println("Der- Constructor");
-	//	super();   ---> constructor call must be in the first statement.
+//		super();   ---> constructor call must be in the first statement.
 	}
 }
 

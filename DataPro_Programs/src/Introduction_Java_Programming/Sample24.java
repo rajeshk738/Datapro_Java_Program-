@@ -19,7 +19,7 @@ public class Sample24 {
 
 	public static void main(String[] args) {
 		
-		System.out.println(MyArithmeticOperations.sum(10, 20));
+		System.out.println(MyArithmeticOperations.sum(10, 20));		// ---> static functions are classed using class name
 		System.out.println(MyArithmeticOperations.product(10, 20));
 
 	}

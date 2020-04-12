@@ -18,7 +18,7 @@ public class Sample8 {
 			BLOCK3:
 			{
 				if(true)
-					break BLOCK1;
+					break BLOCK2;
 				System.out.println("Inside BLOCK3");
 			}
 			System.out.println("Outside BLOCK3");

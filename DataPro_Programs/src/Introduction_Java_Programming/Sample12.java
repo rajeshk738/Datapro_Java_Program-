@@ -16,7 +16,7 @@ public class Sample12 {
 
 	public static void main(String[] args) {
 		
-		//	new Hello3();  --> It doesn't call default constructor when there is constructor defined with arguments.
+	//	new Hello3(); // --> It doesn't call default constructor when there is constructor defined with arguments.
 	}
 
 }

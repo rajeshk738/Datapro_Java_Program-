@@ -10,7 +10,7 @@ public class Sample11 {
 
 	public static void main(String[] args) {
 	
-		new Hello2();
+		new Hello2();			// ---> calls default constructor
 	}
 
 }

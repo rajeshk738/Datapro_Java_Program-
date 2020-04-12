@@ -15,7 +15,7 @@ class Batch{
 	{
 		// ns =60;
 		// course ="c";
-		this(60,"c");
+		this(60,"c");      // ---> calls constructor and this should be first statement
 	}
 	
 	Batch(int ns)

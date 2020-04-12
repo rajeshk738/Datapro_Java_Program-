@@ -30,7 +30,7 @@ class Der3 extends Base3
 {
 	Lion fun()
 	{
-		// super.fun();
+		super.fun();
 		System.out.println("Der-fun");
 		return new Lion();
 	}

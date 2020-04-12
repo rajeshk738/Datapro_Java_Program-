@@ -19,15 +19,15 @@ public class Sample10 {
 		
 		void fun()
 		{
-			System.out.println(a);
-			System.out.println(b);
-			System.out.println(c);
-			System.out.println(d);
-			System.out.println(e);
-			System.out.println(f);
-			System.out.println(g);
-			System.out.println(str);
-			System.out.println(emp);
+			System.out.println(a);  	 // ---> default value 0
+			System.out.println(b);		// ---> default value 0
+			System.out.println(c);		// ---> default value 0
+			System.out.println(d);		// ---> default value 0
+			System.out.println(e);		// ---> default value 0.0
+			System.out.println(f);		// ---> default value 0.0
+			System.out.println(g);		// ---> default value ' '
+			System.out.println(str);	// ---> default value null
+			System.out.println(emp);	// ---> default value null
 			
 			if(emp == null)
 				System.out.println("not pointing to any object");

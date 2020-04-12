@@ -22,7 +22,7 @@ public class Sample18 {
 		String s9 = "Vizag is the City of Destiny", s10, s11, s12;
 		
 		System.out.println(s1.length());
-		s3 = s1.concat(s2).concat("rajesh");		// s3 = s1 + s2
+	    s3 = s1.concat(s2).concat("rajesh");		// s3 = s1 + s2 + "rajesh";
 		System.out.println("After Concatenation: "+s3);
 		
 		s5 = s4.toUpperCase();
@@ -48,3 +48,4 @@ public class Sample18 {
 	}
 
 }
+

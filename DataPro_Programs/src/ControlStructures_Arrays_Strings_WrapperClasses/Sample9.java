@@ -16,7 +16,7 @@ public class Sample9 {
 			for(j=1;j<=20;j++)
 			{
 				if(j==5)
-		//			break LOOP1;   // ----> cannot use the LOOP1 to break
+		//		break LOOP1;   // ----> Label LOOP1 is missing----cannot use the LOOP1 to break
 				System.out.println(j);
 			}
 

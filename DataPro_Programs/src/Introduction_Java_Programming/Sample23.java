@@ -2,7 +2,7 @@
 
 package Introduction_Java_Programming;
 
-import  static java.lang.Math.*;  //---> shoudl be imported to work Math functions
+import  static java.lang.Math.*;  //---> should be imported to work Math functions
 
 public class Sample23 {
 

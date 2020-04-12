@@ -10,6 +10,7 @@ class Hello1{
 	
 	Hello1(int n)
 	{
+		// this(); ----> calls zero arg constructor
 		System.out.println("Hello-one-arg-Constructor");
 	}
 }
