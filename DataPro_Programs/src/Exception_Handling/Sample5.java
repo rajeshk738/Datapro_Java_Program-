@@ -4,8 +4,8 @@ package Exception_Handling;
 
 public class Sample5 {
 
-	public static void main(String[] args) {		// Run configurations---provided command line arguments ---" hi ra rajesh"
-													// No error when we provide command line arguments------" 20 10 30 "
+	public static void main(String[] args) {	// ---> Run configurations---provided command line arguments ---" hi ra rajesh"
+											  //---> No error when we provide command line arguments------" 20 10 30 "
 		int sum = 0, n;
 		
 		for(int i =0; i<args.length;i++)

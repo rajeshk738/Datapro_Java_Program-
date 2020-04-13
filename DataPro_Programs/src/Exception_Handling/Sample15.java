@@ -32,7 +32,7 @@ class BankAccount{
 		this.balance = balance;
 	}
 	
-	void deposti(double amt) throws MyInvalidAmountException
+	void deposit(double amt) throws MyInvalidAmountException
 	{
 		if(amt<100)
 			throw new MyInvalidAmountException("attempting to deposit amount: "+amt+", please deposit amount >=100");
@@ -79,7 +79,7 @@ public class Sample15 {
 				try {
 					System.out.println("Enter deposit amount: ");
 					amt = scan.nextDouble();
-					obj.deposti(amt);
+					obj.deposit(amt);
 					
 					System.out.println("Successfully deposited amount: "+amt);
 					System.out.println("Your balance is: "+obj.getBalance());
