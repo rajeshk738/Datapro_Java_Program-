@@ -13,8 +13,8 @@ public class Package2 {
 		myPack1.Hello h1 = new myPack1.Hello();			//---> fully qualified class name	(package name followed by class name)
 		h1.fun();
 		
-		myPack1.Hello h2 = new myPack1.Hello();    //-----> Note: Here, import statements would work, because, how can Java know which
-		h2.fun();									// package's Hello class we are referring to
+		myPack2.Hello h2 = new myPack2.Hello();   //-----> Note: Here, import statements would work, because, how can Java know which
+		h2.fun();								// package's Hello class we are referring to
 
 	}
 
