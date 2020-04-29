@@ -12,9 +12,10 @@ public class Sample12 {
 	public static void main(String[] args) throws Exception {
 		
 		FileReader fr = new FileReader("F:\\Users\\JavaFile\\mvp.txt");
-		FileWriter fw = new FileWriter("F:\\\\Users\\\\JavaFile\\test.txt");
+		FileWriter fw = new FileWriter("F:\\Users\\JavaFile\\test.txt");
 		
 		BufferedReader br = new BufferedReader(fr);
+		
 		PrintWriter pw = new PrintWriter(fw);
 		
 		String line;

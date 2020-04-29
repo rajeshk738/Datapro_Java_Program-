@@ -16,7 +16,10 @@ public class Sample11 {
 		int n;
 		
 		while((n=fr.read()) != -1)
-			fw.write(n);
+		{
+			fw.write(n); 
+		
+		}
 		
 		fr.close();
 		fw.close();

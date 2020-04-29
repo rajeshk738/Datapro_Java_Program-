@@ -18,6 +18,7 @@ public class Sample6 {
 		c = a+b;
 		con.format("Sum = %d", c);
 
+		
 	}
 
 }
